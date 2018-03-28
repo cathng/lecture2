@@ -8,9 +8,17 @@ export const Timeline = (props) => (
       { props.posts.map(post => (
         <div className="timeline__post">
           <Post
+            title={post.title}
+            date={post.date}
+
+            imageUrl={post.imageUrl}
+
             owner={post.owner}
             location={post.location}
-            imageUrl={post.imageUrl}
+
+            excerpt={post.excerpt}
+            postUrl={post.postUrl}
+            
             likes={post.likes}
             comments={post.comments}
           />

@@ -3,9 +3,9 @@
   border-radius: 5px;
 }
 
-.post__avatar, .post__header-info {
+.post__avatar, .post__author-info {
   display: inline-block;
-  padding-right: 15px; 
+  padding-right: 15px;
 }
 
 .post__img {
@@ -13,8 +13,21 @@
   height: auto;
 }
 
-.post__header, .post__body {
+.post__author, .post__body {
   padding: 15px 20px;
+}
+
+.post__header {
+  padding: 15px 
+}
+
+.post__title h3{
+  color: #1F618D;
+  margin: 5px 0;
+}
+
+.post__date {
+  font-style: italic;
 }
 
 .post__body-separator {

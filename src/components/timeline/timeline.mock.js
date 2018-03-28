@@ -1,16 +1,19 @@
 export const mockTimeline = {
   posts: [
     {
-      location: 'Toronto, ON',
-      likes: 55,
+      imageUrl: 'https://www.archtoronto.org/PublishingImages/news/signature-962354_960_720.jpg',
+      title: 'Sign-Up Sundays! February 24/25 & March 3/4',
+      date: 'March 27, 2018',
       owner: {
-        name: 'alaboudi',
-        avatarUrl: 'https://instagram.fybz1-1.fna.fbcdn.net/vp/294700051612ff4c3cb1f5f934b1b4df/5B2AEA83/t51.2885-15/e35/28429940_2081445072145156_7910717322665394176_n.jpg'
+        name: 'Catherine',
+        avatarUrl: 'https://scontent.fyyz1-1.fna.fbcdn.net/v/t1.0-9/20364_101837979845794_4224536_n.jpg?_nc_cat=0&oh=7fcf7620efc7caeaa72c0909ad5ac7ca&oe=5B3C3D32'
       },
-      imageUrl: 'https://instagram.fybz1-1.fna.fbcdn.net/vp/a764620b200bf605d0292300f38b575f/5B29735E/t51.2885-15/sh0.08/e35/p640x640/22426987_120319771971278_5335859092701315072_n.jpg',
+      location: 'Toronto',
+      excerpt: 'Cardinal Collins and bishops across Ontario are asking for an email address from every Catholic family in their community, with a goal of 100,000 email addresses collected in Ontario by the end of February 2018. This information will be used locally by Cardinal Collins and trusted faith partners to communicate periodically (approximately 6-8 times/year) on issues of particular importance for the Catholic community.',
+      likes: 55,
       comments: [
         {
-          owner: 'alaboudi',
+          owner: 'joseph',
           text: 'check out my placeholder... sick!'
         },
         {
@@ -24,16 +27,19 @@ export const mockTimeline = {
       ],
     },
     {
-      location: 'Toronto, ON',
-      likes: 55,
+      imageUrl: 'https://www.archtoronto.org/PublishingImages/COA-rollup.jpg',
+      title: 'Make sure your voice is heard - Sign up today',
+      date: 'March 27, 2018',
       owner: {
-        name: 'stephanieee',
-        avatarUrl: 'https://instagram.fybz1-1.fna.fbcdn.net/vp/0901f5c0c14e6aafc5ab6567bc0c5dcf/5B337BE2/t51.2885-15/sh0.08/e35/p640x640/26867732_1779442872074030_2768071787655725056_n.jpg'
+        name: 'Catherine',
+        avatarUrl: 'https://scontent.fyyz1-1.fna.fbcdn.net/v/t1.0-9/20364_101837979845794_4224536_n.jpg?_nc_cat=0&oh=7fcf7620efc7caeaa72c0909ad5ac7ca&oe=5B3C3D32'
       },
-      imageUrl: 'https://instagram.fybz1-1.fna.fbcdn.net/vp/0901f5c0c14e6aafc5ab6567bc0c5dcf/5B337BE2/t51.2885-15/sh0.08/e35/p640x640/26867732_1779442872074030_2768071787655725056_n.jpg',
+      location: 'Toronto',
+      excerpt: 'In Feburary, Cardinal Collins and bishops across Ontario asked for an email address from every Catholic family in their community, with a goal of 100,000 email addresses collected in Ontario. This information will be used locally by Cardinal Collins and trusted faith partners to communicate periodically (approximately 6-8 times/year) on issues of particular importance for the Catholic community.',
+      likes: 55,
       comments: [
         {
-          owner: 'alaboudi',
+          owner: 'joseph',
           text: 'check out my placeholder... sick!'
         },
         {
@@ -47,16 +53,19 @@ export const mockTimeline = {
       ],
     },
     {
-      location: 'Toronto, ON',
-      likes: 55,
+      imageUrl: 'https://www.archtoronto.org/PublishingImages/news/david-sylvester.jpg',
+      title: 'Statement from Cardinal Collins on New President and Vice-Chancellor of University of St. Michael’s College',
+      date: 'March 27, 2018',
       owner: {
-        name: 'brobrewskies',
-        avatarUrl: 'https://instagram.fybz1-1.fna.fbcdn.net/vp/9417f3919f11899cde86504fc46c7252/5B3D16FF/t51.2885-15/e35/28152747_211082926110129_236304840018362368_n.jpg'
+        name: 'Catherine',
+        avatarUrl: 'https://scontent.fyyz1-1.fna.fbcdn.net/v/t1.0-9/20364_101837979845794_4224536_n.jpg?_nc_cat=0&oh=7fcf7620efc7caeaa72c0909ad5ac7ca&oe=5B3C3D32'
       },
-      imageUrl: 'https://instagram.fybz1-1.fna.fbcdn.net/vp/39a5a3deeb220f05884335929d6a9527/5B3A8FB5/t51.2885-15/sh0.08/e35/p640x640/22351692_1425184537589811_9176382457526616064_n.jpg',
+      location: 'Toronto',
+      excerpt: 'Cardinal Collins and bishops across Ontario are asking for an email address from every Catholic family in their community, with a goal of 100,000 email addresses collected in Ontario by the end of February 2018. This information will be used locally by Cardinal Collins and trusted faith partners to communicate periodically (approximately 6-8 times/year) on issues of particular importance for the Catholic community.',
+      likes: 55,
       comments: [
         {
-          owner: 'alaboudi',
+          owner: 'joseph',
           text: 'check out my placeholder... sick!'
         },
         {
@@ -70,39 +79,19 @@ export const mockTimeline = {
       ],
     },
     {
-      location: 'Toronto, ON',
-      likes: 55,
+      imageUrl: 'https://www.archtoronto.org/PublishingImages/our-faith-alive/Blessing%20of%20Oils.jpg',
+      title: 'Making sense of the Chrism Mass',
+      date: 'March 27, 2018',
       owner: {
-        name: 'naturehiker',
-        avatarUrl: 'https://instagram.fybz1-1.fna.fbcdn.net/vp/2c4b4798de332bec9d32dc5ad8d2a0b0/5B2E15B1/t51.2885-15/sh0.08/e35/p750x750/28430529_962442160762544_2679490522422181888_n.jpg'
+        name: 'Catherine',
+        avatarUrl: 'https://scontent.fyyz1-1.fna.fbcdn.net/v/t1.0-9/20364_101837979845794_4224536_n.jpg?_nc_cat=0&oh=7fcf7620efc7caeaa72c0909ad5ac7ca&oe=5B3C3D32'
       },
-      imageUrl: 'https://instagram.fybz1-1.fna.fbcdn.net/vp/cfcfc20f8e5702545bdc23f86da95e80/5B32E167/t51.2885-15/sh0.08/e35/p640x640/21910938_129489494448851_9094753662013538304_n.jpg',
+      location: 'Toronto',
+      excerpt: 'The annual Chrism Mass never used to make sense to me. It seemed rather disjointed. There is the renewal of priestly promises and then, the reason Chrism Mass is called Chrism Mass, the blessing of the oils and consecration of Chrism. At first glance, these two actions don’t seem related. Then, I’m reminded that the Church is smarter than I am and she knows what she is doing.',
+      likes: 55,
       comments: [
         {
-          owner: 'alaboudi',
-          text: 'check out my placeholder... sick!'
-        },
-        {
-          owner: 'flatt.bot',
-          text: 'damn fam, thats some great placeholder'
-        },
-        {
-          owner: 'clasFan',
-          text: 'I dont get it. its just a placeholder'
-        }
-      ],
-    },
-    {
-      location: 'Toronto, ON',
-      likes: 55,
-      owner: {
-        name: 'castleblog',
-        avatarUrl: 'https://instagram.fybz1-1.fna.fbcdn.net/vp/df7f1600538eb6d446d125f3f8f9ac95/5B41CB6A/t51.2885-15/sh0.08/e35/p640x640/28763661_448397752263778_3802886081079148544_n.jpg'
-      },
-      imageUrl: 'https://instagram.fybz1-1.fna.fbcdn.net/vp/9d0703fba10ca3bec755b6b6a6d1f116/5B34A70F/t51.2885-15/sh0.08/e35/p640x640/21688681_1476754159069121_5794997405950672896_n.jpg',
-      comments: [
-        {
-          owner: 'alaboudi',
+          owner: 'joseph',
           text: 'check out my placeholder... sick!'
         },
         {
